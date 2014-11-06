@@ -1,0 +1,25 @@
+{
+    "name": "php-go/framework",
+    "description": "基于 Symfony 组件的框架，支持多 Bundle",
+    "type": "project",
+    "require": {
+        "silex/providers": "2.0.*@dev",
+        "silex/api": "2.0.*@dev",
+        "php-go/php-go": "dev-master",
+        "php-go/simple-admin-bundle": "dev-master",
+        "php-go/db-doctrine": "dev-master",
+        "symfony/translation": "~2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dongww",
+            "email": "dongww@gmail.com"
+        }
+    ]
+}

@@ -1,11 +1,11 @@
 <?php
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
 use Application\Application;
 
 try {
     $app = new Application('app', [
-        'root_path' => __DIR__,
+        'root_path' => __DIR__ . '/..',
         'debug'     => true,
     ]);
     $app->run();

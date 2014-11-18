@@ -5,10 +5,7 @@
     "require": {
         "silex/providers": "2.0.*@dev",
         "silex/api": "2.0.*@dev",
-        "php-go/php-go": "dev-master",
-        "php-go/simple-admin-bundle": "dev-master",
-        "php-go/db-doctrine": "dev-master",
-        "symfony/translation": "~2.5"
+        "php-go/php-go": "dev-master"
     },
     "autoload": {
         "psr-4": {

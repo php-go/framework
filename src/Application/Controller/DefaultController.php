@@ -5,17 +5,17 @@
  * Time: 1:26
  */
 
-namespace NewsDemo\Controller;
+namespace Application\Controller;
 
 use PhpGo\Framework\Application;
 use PhpGo\Framework\Core\BundleAbstract;
 
 class DefaultController
 {
-    public function indexAction(Application $app, BundleAbstract $bundle  /*, $id*/)
+    public function indexAction(Application $app/*, $id*/)
     {
         return $app->render('test.twig', [
-            'name' => 'NewsDemo',
+            'name' => 'App',
         ]);
     }
 }

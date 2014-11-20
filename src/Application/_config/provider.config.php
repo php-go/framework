@@ -8,3 +8,7 @@ $app->register(new Silex\Provider\TwigServiceProvider(), [
         'debug'            => $app['debug']
     ]
 ]);
+
+if ($app['debug']) {
+
+}
